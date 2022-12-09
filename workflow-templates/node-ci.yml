@@ -3,8 +3,8 @@ name: Package Continuous Integration
 on:
     pull_request:
         paths:
-            - '!docs/**'
-            - '!examples/**'
+            - 'docs/**'
+            - 'examples/**'
         branches:
             - $default-branch
 
