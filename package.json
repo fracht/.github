@@ -1,0 +1,19 @@
+{
+	"name": "github",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "pnpm format:base --write",
+		"format:base": "prettier **/*.{js,jsx,ts,tsx,json,yaml,yml,md}",
+		"format:check": "pnpm format:base --check"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^2.8.0"
+	}
+}

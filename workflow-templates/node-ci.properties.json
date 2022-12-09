@@ -1,0 +1,14 @@
+{
+    "name": "Javascript/Typescript CI",
+    "description": "Continuous integration pipeline for stand-alone javascript/typescript packages (non-monorepos)",
+    "iconName": "node",
+    "categories": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "filePatterns": [
+        "^package.json$",
+        "^pnpm-lock.yaml$",
+        "!pnpm-workspace.yaml$"
+    ]
+}
