@@ -2,7 +2,7 @@ name: Package Continuous Integration
 
 on:
     pull_request:
-        paths:
+        paths-ignore:
             - 'docs/**'
             - 'examples/**'
         branches:
