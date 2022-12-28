@@ -1,0 +1,13 @@
+{
+    "name": "Sources format",
+    "description": "Workflow for formatting sources, after each push into default branch",
+    "iconName": "prettier",
+    "categories": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "filePatterns": [
+        "^package.json$",
+        "^pnpm-lock.yaml$"
+    ]
+}
