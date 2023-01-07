@@ -5,7 +5,7 @@ on:
         branches:
             - $default-branch
 
-# Skip job run if PR updated
+# Skip job run if newer commit exists
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
     cancel-in-progress: true
