@@ -1,0 +1,13 @@
+{
+    "name": "Vitepress docs deployment",
+    "description": "Workflow to deploy vitepress docs on github pages. It runs on each push into default branch when there are any changes in /docs directory.",
+    "iconName": "vitepress",
+    "categories": [
+        "deployment",
+        "Pages"
+    ],
+    "filePatterns": [
+        "^package.json$",
+        "^pnpm-lock.yaml$"
+    ]
+}
